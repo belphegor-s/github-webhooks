@@ -1,0 +1,32 @@
+{
+    "COMMIT": [
+        {
+            "payloadURL": "http://localhost:8888/get-info",
+            "secret": "e0d8d71551f09ad7f878710d9c407706dc2b95bb77ddd4d4c8c8f4638b3928657e27a30a086a90ef3db8caff0a57c694f8f6fc068982673b5bc85d71"
+        },
+        {
+            "payloadURL": "http://localhost:8888/get-info",
+            "secret": "e0d8d71551f09ad7f878710d9c407706dc2b95bb77ddd4d4c8c8f4638b3928657e27a30a086a90ef3db8caff0a57c694f8f6fc068982673b5bc85d71"
+        }
+    ],
+    "PUSH": [
+        {
+            "payloadURL": "http://localhost:8888/get-info",
+            "secret": "e0d8d71551f09ad7f878710d9c407706dc2b95bb77ddd4d4c8c8f4638b3928657e27a30a086a90ef3db8caff0a57c694f8f6fc068982673b5bc85d71"
+        },
+        {
+            "payloadURL": "http://localhost:8888/get-info",
+            "secret": "e0d8d71551f09ad7f878710d9c407706dc2b95bb77ddd4d4c8c8f4638b3928657e27a30a086a90ef3db8caff0a57c694f8f6fc068982673b5bc85d71"
+        }
+    ],
+    "MERGE": [
+        {
+            "payloadURL": "http://localhost:8888/get-info",
+            "secret": "e0d8d71551f09ad7f878710d9c407706dc2b95bb77ddd4d4c8c8f4638b3928657e27a30a086a90ef3db8caff0a57c694f8f6fc068982673b5bc85d71"
+        },
+        {
+            "payloadURL": "http://localhost:8888/get-info",
+            "secret": "e0d8d71551f09ad7f878710d9c407706dc2b95bb77ddd4d4c8c8f4638b3928657e27a30a086a90ef3db8caff0a57c694f8f6fc068982673b5bc85d71"
+        }
+    ]
+}
