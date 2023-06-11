@@ -1,0 +1,23 @@
+version: '3.3'
+services:
+    client:
+        container_name: github-webhooks-client
+        build: ./client
+        ports:
+            - 4173:4173
+        depends_on:
+            - webhooks-server
+    webhooks-server:
+        container_name: webhooks-server
+        restart: always
+        build: ./webhooks-server
+        depends_on:
+            - dashboard-server
+        ports:
+            - 8080:8080
+    dashboard-server:
+        container_name: dashboard-server
+        restart: always
+        build: ./dashboard-server
+        ports:
+            - 8888:8888

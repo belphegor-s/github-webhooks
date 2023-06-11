@@ -1,0 +1,7 @@
+FROM node:16
+WORKDIR /app
+COPY . .
+RUN npm i
+ENV SECRET_KEY=ac743a0433ca79048ee59ad1af5cd2faeda035ac9cdd615f6f8595629a3a0a18000050a2d46e9b77c084cada05a9610ef51ae10145de03c98871ba33
+RUN npm run build
+CMD ["npm", "start"]
