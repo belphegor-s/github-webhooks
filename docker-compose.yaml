@@ -4,11 +4,11 @@ services:
         container_name: github-webhooks-client
         build: ./client
         ports:
-            - 4173:4173
+            - 3000:4173
         depends_on:
             - webhooks-server
     webhooks-server:
-        container_name: webhooks-server
+        container_name: webhooks_server
         restart: always
         build: ./webhooks-server
         depends_on:
@@ -16,7 +16,7 @@ services:
         ports:
             - 8080:8080
     dashboard-server:
-        container_name: dashboard-server
+        container_name: dashboard_server
         restart: always
         build: ./dashboard-server
         ports:
