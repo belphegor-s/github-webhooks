@@ -1,7 +1,7 @@
 const SECRET_KEY = process.env.SECRET_KEY || '';
 
 if(!SECRET_KEY) {
-    throw `SECRET_KEY is missing!`;
+    throw new Error(`SECRET_KEY is missing!`);
 }
 
 export { SECRET_KEY };

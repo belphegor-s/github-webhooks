@@ -6,10 +6,7 @@ import express from "express";
 import fs from "fs";
 import path from "path";
 import authMiddleware from "./middlewares/auth";
-
-interface obj {
-    [key:string]: any;
-}
+import { obj } from "./types/global";
 
 const app = express();
 let messages: obj = [];

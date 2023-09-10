@@ -15,7 +15,7 @@ const App = () => {
 	const [secret, setSecret] = useState('');
 	const [eventTypes, setEventTypes] = useState<string[]>(eventsList.filter((el) => el.checked).map((el) => el.key));
 
-	const webhookRegisterHandler = async (e: FormEvent) => {
+	const webhookRegisterHandler = async (e: FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
 		const data = {
 			payloadURL: webhookURL,

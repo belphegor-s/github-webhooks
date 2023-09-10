@@ -1,4 +1,4 @@
-const eventsList = [
+const eventsList = Object.freeze([
     {
         key: 'COMMIT',
         title: 'Commit',
@@ -14,6 +14,6 @@ const eventsList = [
         title: 'Merge',
         checked: false
     },
-]
+])
 
 export default eventsList
